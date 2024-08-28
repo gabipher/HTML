@@ -1,0 +1,28 @@
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Canvas e SVG</title>
+</head>
+<body>
+
+    <h2>Desenho com Canvas</h2>
+    <canvas id="meuCanvas" width="200" height="200" style="border:1px solid #000;"></canvas>
+
+    <script>
+        var canvas = document.getElementById('meuCanvas');
+        var ctx = canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.arc (100, 100, 50, 0, 2 * Math.PI);
+        ctx.fillstyle = 'blue';
+        ctx.fill();
+        ctx.stroke();
+    </script>
+
+    <h2>Desenho com SVG</h2>
+    <svg width="200" height="200" style="border:1px solid #000;">
+        <circle cx="100" cy="100" r="50" fill="red" />
+    </svg>
+
+</body>
+</html>
