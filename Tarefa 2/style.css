@@ -1,0 +1,8 @@
+nav{background-color:dimgray; width: 100.65%; padding: 0.1%; margin-left: -8px; margin-top: -8px; float: left;}
+nav ul{list-style-type: none; display: flex; padding-left: 20px;}
+nav li{margin-right: 50px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+nav a{text-decoration: none; color: black;}
+
+li:hover{text-decoration: underline;}
+
+nav .input{margin-top: -39px; margin-right: 8px; float: right;}
